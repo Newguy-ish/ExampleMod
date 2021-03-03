@@ -1,4 +1,4 @@
-type: material
+type: item
 name: Silver
 description: A rare resource.
 hardness: 2
