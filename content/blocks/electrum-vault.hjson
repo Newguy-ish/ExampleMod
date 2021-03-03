@@ -12,9 +12,6 @@ requirements: [
 ]
 category: effect
 research: {
-  parent: vault
-  requirements: [
-    electrum/5
     ]
  }
   
