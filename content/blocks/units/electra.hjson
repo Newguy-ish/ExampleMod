@@ -12,5 +12,11 @@ weapon: {
   length: 1.5
   reload: 4
   alternate: false
-  bullet: lightning
+  bullet: {
+    type: LightningBulletType
+    lifetime: Fx.lightning.lifetime
+    hitEffect: Fx.hitLancer
+    despawnEffect: none
+    hittable: false
+    colidesTeam: false
 }
