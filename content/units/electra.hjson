@@ -8,9 +8,14 @@ flying: false
 health: 300
 weaponOffsetX: 4
 weapon: {
-  name: chrome-blaster
+  name: "chrome-blaster"
+  x:
+  y:
+  shootY:
+  top: false
+  shake: 1.7
   length: 1.5
   reload: 4
-  alternate: false
-  bullet: lightning
+  shots: 2
+  bullet: {
 }
