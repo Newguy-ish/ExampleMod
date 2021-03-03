@@ -7,15 +7,41 @@ engineColor: "666495"
 flying: false
 health: 300
 weaponOffsetX: 4
-weapon: {
-  name: "chrome-blaster"
-  x:
-  y:
-  shootY:
-  top: false
-  shake: 1.7
-  length: 1.5
-  reload: 4
-  shots: 2
-  bullet: {
-}
+weapon: [
+     {
+    name: chrome blaster
+    reload: 4
+    top: false
+    mirror: true
+    x: 2
+    y: 0
+    shootY: 2
+    recoil: 1.5
+    shake: 1
+    rotateSpeed: 1
+    rotate: true
+    shots: 3
+    shootSound: spark
+    shootCone: 35
+			bullet: {
+              type: lightningBulletType
+              status: corroded
+              statusDuration: 80
+              buildingDamageMultiplier: 1.04,
+		      lightningColor: a2a2a2
+		      lightningCone: 20
+		      damage: 48
+              lightningLength: 26
+              collidesGround: true
+              collidesAir: true
+			}
+              } 
+       ]
+research: {
+  parent: flare
+  requirements: [
+   surge-alloy/200
+   lead/2000
+   silicon/2000
+ ]
+} 
