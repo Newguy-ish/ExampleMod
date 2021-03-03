@@ -1,0 +1,43 @@
+type: flying
+localizedName: octade
+description: t1 purple air basic suicide unit that does a lot of dmg in a small radiuss.
+hitSize: 10
+health: 300
+range: 32
+speed: 5
+rotateSpeed: 70
+baseRotateSpeed: 50
+flying: true
+circleTarget: true
+drag: 0.75
+accel: 0.05
+rotateSpeed: 3
+engineOffset: 8
+engineSize: 4
+rotateShooting: false
+weapons: [
+{
+  shots: 1
+  shake: 5
+  reload: 60
+  shootSound: explosionBig
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    splashDamage: 500
+    splashDamageRadius: 30
+    killShooter: true
+    hittable: false
+    despawnEffect: impactcloud
+    maxRange: 32
+    collidesGround: true
+    collidesAir: true
+  }
+}
+]
+research: air-factory
