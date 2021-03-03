@@ -4,7 +4,7 @@ speed: 0.9
 hitSize: 9
 flying: false
 health: 200
-weapon: [
+weapons: [
 {
 	name: "chrome-blaster"
 	 reload: 4
