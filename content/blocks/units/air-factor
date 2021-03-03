@@ -1,0 +1,26 @@
+plans: [
+    {
+        unit: chrome-wraith
+        requirements: [
+	silicon/100
+	titanium/50
+	lead/200
+        ]
+        time: 3000
+    }
+    {
+        unit: mono
+        requirements: [
+	silicon/50
+	lead/100
+        ]
+        time: 4000
+    }
+    {
+        unit: flare
+        requirements: [
+	silicon/70
+        ]
+        time: 3000
+    }
+]
