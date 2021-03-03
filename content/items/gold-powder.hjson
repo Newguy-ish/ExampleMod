@@ -1,4 +1,4 @@
-type: resource
+type: item
 name: Gold Powder
 description: Gold in powder form. Only used for production.
 color: e2c16d
