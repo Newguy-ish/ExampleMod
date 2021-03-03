@@ -5,7 +5,7 @@ hitSize: 9
 flying: false
 health: 200
 weapon: [
-     {
+{
 	name: "chrome-blaster"
 	 reload: 4
 	top: false
@@ -29,16 +29,19 @@ weapon: [
 		lightningLength: 26
 		collidesGround: true
 		collidesAir: true
-			}
-		} 
+	}
+} 
 	]
 research: {
 	parent: pulsar
+	requirements: [
+		silicon/5
+        ]
+}
 requirements: {
 	block: ground-factory
 	time: 240
         requirements: [
 		silicon/5
         ]
-	}
 }
