@@ -11,4 +11,10 @@ requirements: [
   thorium/40
 ]
 category: effect
-research: vault
+research: {
+  parent: vault
+  requirements: [
+    electrum/5
+    ]
+ }
+  
