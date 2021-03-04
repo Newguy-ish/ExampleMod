@@ -25,7 +25,7 @@ weapons: [
         	status: shocked
         	statusDuration: 40
         	buildingDamageMultiplier: 0.79,
-		lightningColor: a2a2a2
+		lightningColor: f2ff9c
 		lightningCone: 20
 		damage: 10
 		lightningLength: 8
