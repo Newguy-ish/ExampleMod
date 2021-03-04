@@ -1,7 +1,7 @@
 localizedName: Electra
 type: mech
 description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
-speed: 0.9
+speed: 0.7
 hitSize: 9
 flying: false
 health: 200
@@ -9,7 +9,7 @@ commandLimit: 5
 weapons: [
 {
 	name: electrum-blaster
-	 reload: 12
+	 reload: 14
 	top: false
 	mirror: true
 	x: 5
