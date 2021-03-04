@@ -34,7 +34,6 @@ weapons: [
 	]
 research: {
 	parent: pulsar
-        ]
 }
 requirements: {
 	block: ground-factory
