@@ -24,7 +24,7 @@ weapons: [
    		type: lightningBulletType
         	status: shocked
         	statusDuration: 40
-        	buildingDamageMultiplier: 0.89,
+        	buildingDamageMultiplier: 0.79,
 		lightningColor: a2a2a2
 		lightningCone: 20
 		damage: 10
