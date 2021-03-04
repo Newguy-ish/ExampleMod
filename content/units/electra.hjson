@@ -1,4 +1,4 @@
-name: Electra
+localizedName: Electra
 description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
 speed: 0.9
 hitSize: 9
@@ -6,27 +6,27 @@ flying: false
 health: 200
 weapons: [
 {
-	name: "chrome-blaster"
+	name: chrome-blaster
 	 reload: 4
 	top: false
 	mirror: true
-	x: 2
-	y: 0
+	x: 0
+	y: 2
 	shootY: 2
 	recoil: 1.5
 	shake: 1
 	rotate: false
-	shots: 3
-        shootCone: 35
+	shots: 2
+        shootCone: 25
    	bullet: {
    		type: lightningBulletType
         	status: shocked
         	statusDuration: 40
-        	buildingDamageMultiplier: 1.04,
+        	buildingDamageMultiplier: 0.89,
 		lightningColor: a2a2a2
 		lightningCone: 20
-		damage: 48
-		lightningLength: 26
+		damage: 13
+		lightningLength: 6
 		collidesGround: true
 		collidesAir: true
 	}
@@ -34,14 +34,14 @@ weapons: [
 	]
 research: {
 	parent: pulsar
-	requirements: [
-		silicon/5
         ]
 }
 requirements: {
 	block: ground-factory
 	time: 240
         requirements: [
-		silicon/5
+		silicon/30
+		silver/20
+		electrum/15
         ]
 }
