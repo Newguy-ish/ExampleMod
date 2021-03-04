@@ -1,4 +1,5 @@
 localizedName: Electra
+type: mech
 description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
 speed: 0.9
 hitSize: 9
