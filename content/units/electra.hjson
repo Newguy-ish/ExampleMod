@@ -12,7 +12,7 @@ weapons: [
 	 reload: 14
 	top: false
 	mirror: true
-	x: 5
+	x: 4.6
 	y: 2.1
 	shootY: 2.2
 	recoil: 1.5
