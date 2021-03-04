@@ -2,7 +2,6 @@ name: Electrum Vault
 description: Shocking way of storing items.
 type: StorageBlock
 itemCapacity: 2500
-hasItems: true
 health: 2000
 size: 3
 requirements: [
@@ -12,6 +11,6 @@ requirements: [
 ]
 category: effect
 research: {
-    ]
+ parent: vault
  }
   
