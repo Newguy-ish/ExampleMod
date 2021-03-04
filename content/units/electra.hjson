@@ -7,7 +7,7 @@ flying: false
 health: 200
 weapons: [
 {
-	name: chrome-blaster
+	name: electrum-blaster
 	 reload: 12
 	top: false
 	mirror: true
