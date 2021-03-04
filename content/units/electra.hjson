@@ -42,7 +42,7 @@ requirements: {
 	time: 2400
         requirements: [
 		silicon/30
-		silver/20
+		titanium/20
 		electrum/15
         ]
 }
