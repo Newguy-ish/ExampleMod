@@ -13,7 +13,7 @@ weapons: [
 	top: false
 	mirror: true
 	x: 4.6
-	y: 2.1
+	y: 2.4
 	shootY: 2.2
 	recoil: 1.5
 	shake: 1
