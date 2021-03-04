@@ -7,7 +7,7 @@ health: 200
 weapons: [
 {
 	name: chrome-blaster
-	 reload: 4
+	 reload: 12
 	top: false
 	mirror: true
 	x: 0
@@ -37,7 +37,7 @@ research: {
 }
 requirements: {
 	block: ground-factory
-	time: 240
+	time: 2400
         requirements: [
 		silicon/30
 		silver/20
