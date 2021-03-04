@@ -11,7 +11,7 @@ weapons: [
 	 reload: 12
 	top: false
 	mirror: true
-	x: 3
+	x: 5
 	y: 2
 	shootY: 2
 	recoil: 1.5
@@ -27,7 +27,7 @@ weapons: [
 		lightningColor: a2a2a2
 		lightningCone: 20
 		damage: 13
-		lightningLength: 6
+		lightningLength: 8
 		collidesGround: true
 		collidesAir: true
 	}
