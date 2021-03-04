@@ -5,6 +5,7 @@ speed: 0.9
 hitSize: 9
 flying: false
 health: 200
+commandLimit: 5
 weapons: [
 {
 	name: electrum-blaster
