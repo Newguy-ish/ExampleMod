@@ -1,6 +1,6 @@
 localizedName: Electra
 type: mech
-description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
+description: A light attack mech wielding two Electrum Arc weapons.
 speed: 0.7
 hitSize: 9
 flying: false
